@@ -5,12 +5,12 @@ function App() {
     <div className="App">
       <h1>play<span className="highlight">List</span>r</h1>
       <div className="App">
-      {/*<!-- Add a SearchBar component -->*/}
-    <div className="App-playlist">
-      {/*<!-- Add a SearchResults component -->*/}
-      {/*<!-- Add a Playlist component --> */}
-    </div>
-  </div>
+        <SearchBar />
+        <div className="App-playlist">
+          <SearchResults />
+          <Playlist />
+        </div>
+      </div>
     </div>
   );
 }
