@@ -1,3 +1,4 @@
+import SearchBar from '../SearchBar/SearchBar';
 import './App.css';
 
 function App() {
@@ -5,7 +6,7 @@ function App() {
     <div className="App">
       <h1>play<span className="highlight">List</span>r</h1>
       <div className="App">
-        {/* */}
+        <SearchBar />
         <div className="App-playlist">
           
         </div>

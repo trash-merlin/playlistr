@@ -1,3 +1,4 @@
+
 function SearchBar() {
     return(
         <div class="SearchBar">
@@ -6,3 +7,5 @@ function SearchBar() {
         </div>
     );
 }
+
+export default SearchBar;
